@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Iosevka';
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thin-e2a3088c87ef18bcfdf7180d97cc269e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thin-c5b755ab5c3ea334cf78867c944750c8.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thin-f4b7aec03dce57d0ea578094eb676b63.ttf) format('truetype');
+}
+
+body    { background: #fdf6e3; color: #657b83; font-family: 'Iosevka'; margin: 0; padding: 0; }
+a       { color: #268bd2; text-decoration: none; }
+a:hover { color: #268bd2; text-decoration: underline; }
+h1      { color: #268bd2; font-size: 2em; text-align: center; word-wrap: break-word; }
+footer  { width: 100%; color: #93a1a1; text-align: center; }
+ol      { column-count: 3; column-gap: 3em; }
+
+.container { background: #eee8d5; margin: 0 auto 3em auto; padding: 1em; max-width: 60em; }
+
+@media only screen and (max-width: 60em) { ol { column-count: 2; column-gap: 3em; } }
+@media only screen and (max-width: 30em) { ol { column-count: 1; } }
