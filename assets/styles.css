@@ -10,14 +10,15 @@
 body             { background: #fdf6e3; color: #657b83; font-family: 'Iosevka'; margin: 0; padding: 0; }
 a                { color: #268bd2; text-decoration: none; }
 a:hover          { color: #268bd2; text-decoration: underline; }
-h1               { background-color: #eee8d5; color: #268bd2; font-size: 2em; text-align: center; word-wrap: break-word; padding: 1em; }
+h1               { background-color: #eee8d5; color: #859900; font-size: 2em; text-align: center; word-wrap: break-word; padding: 1em; }
 footer           { width: 100%; color: #93a1a1; text-align: center; }
 ol               { column-count: 3; column-gap: 3em; }
 section          { margin: 0 auto 3em auto; max-width: 60em; }
 ol li a          { color: #657b83; }
 ol li a:hover    { text-decoration: none; }
 ol li div        { display: none; }
-ol li div span   { word-wrap: break-word; background-color: #eee8d5; display: block; padding: .5em; color: #268bd2; }
+ol li div span   { word-wrap: break-word; display: block; padding: .5em 0; color: #859900; }
+ol li:target     { margin: .5em 0; padding: .5em 0; color: #586e75; border-top: .5px solid #859900; border-bottom: .5px solid #859900; }
 ol li:target a   { color: #268bd2; }
 ol li:target div { display: block; }
 
