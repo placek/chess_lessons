@@ -13,8 +13,7 @@ a:hover { color: #268bd2; text-decoration: underline; }
 h1      { background: #eee8d5; color: #268bd2; font-size: 2em; text-align: center; word-wrap: break-word; padding: 1em; }
 footer  { width: 100%; color: #93a1a1; text-align: center; }
 ol      { column-count: 3; column-gap: 3em; }
-
-.container { margin: 0 auto 3em auto; max-width: 60em; }
+section { margin: 0 auto 3em auto; max-width: 60em; }
 
 @media only screen and (max-width: 60em) { ol { column-count: 2; column-gap: 3em; } }
 @media only screen and (max-width: 30em) { ol { column-count: 1; } }
