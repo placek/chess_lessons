@@ -14,10 +14,12 @@ h1               { background-color: #eee8d5; color: #859900; font-size: 2em; te
 footer           { width: 100%; color: #93a1a1; text-align: center; }
 ol               { column-count: 3; column-gap: 3em; }
 section          { margin: 0 auto 3em auto; max-width: 60em; }
+strong           { color: #6c71c4; }
 ol li a          { color: #657b83; }
 ol li a:hover    { text-decoration: none; }
 ol li div        { display: none; }
 ol li div span   { word-wrap: break-word; display: block; padding: .5em 0; color: #859900; }
+ol li div ul     { padding-inline-start: 1.1em; }
 ol li:target     { margin: .5em 0; padding: .5em 0; color: #586e75; border-top: .5px solid #859900; border-bottom: .5px solid #859900; }
 ol li:target a   { color: #268bd2; }
 ol li:target div { display: block; }
