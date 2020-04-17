@@ -1,6 +1,6 @@
 body { margin: 2em 0 0 0; }
 .fen {
-  font-family: monospace;
+  font-family: 'Iosevka Fixed Curly Web', monospace;
   overflow-wrap: anywhere;
 }
 h3.fen {
@@ -13,14 +13,17 @@ span.fen {
 ol {
   column-count: 2;
   column-gap: 4em;
+  padding-inline-start: 1em;
+  padding-inline-end: 1em;
+  font-weight: 100;
 }
-ol li strong {
+ol > li {
   font-size: 1.1em;
   margin: .8em 0;
-  display: inline-block;
+  font-weight: 300;
 }
 em {
-  font-family: monospace;
+  font-family: 'Iosevka Fixed Curly Web', monospace;
   font-weight: 500;
 }
 
