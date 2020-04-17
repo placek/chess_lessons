@@ -1,0 +1,28 @@
+.fen {
+  font-family: monospace;
+  overflow-wrap: anywhere;
+}
+h3.fen {
+  color: white;
+}
+span.fen {
+  color: white;
+  display: block;
+}
+ol {
+  column-count: 2;
+  column-gap: 4em;
+}
+ol li strong {
+  font-size: 1.1em;
+  margin: .8em 0;
+  display: inline-block;
+}
+em {
+  font-family: monospace;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 700px) {
+  ol { column-count: 1; }
+}
